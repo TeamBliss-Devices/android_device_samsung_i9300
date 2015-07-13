@@ -1,0 +1,27 @@
+[
+    {
+        "remote": "github",
+        "repository": "arter97-temasek-i9300/android_device_samsung_smdk4412-common",
+        "target_path": "device/samsung/smdk4412-common",
+        "revision": "cm-12.1"
+    },
+    {
+        "remote": "github",
+        "repository": "arter97-temasek-i9300/android_kernel_samsung_smdk441",
+        "target_path": "kernel/samsung/smdk4412",
+        "revision": "cm-12.1"
+    },
+    {
+        "remote": "github",
+        "repository": "ArchiDroid/android_hardware_samsung",
+        "target_path": "hardware/samsung",
+        "revision": "cm-12.1"
+        
+    },
+    {
+        "remote": "github",
+        "repository": "ArchiDroid/proprietary_vendor_samsung",
+        "target_path": "vendor/samsung",
+        "revision": "cm-12.1"
+    }
+]

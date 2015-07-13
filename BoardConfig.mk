@@ -69,3 +69,21 @@ DEVICE_RESOLUTION := 720x1280
 
 # inherit from the proprietary version
 -include vendor/samsung/i9300/BoardConfigVendor.mk
+
+
+# BlissPop Config Flags
+TARGET_TC_ROM := 4.8-linaro
+TARGET_TC_KERNEL := 4.9-linaro
+BLISSIFY := true
+BLISS_O3 := true
+BLISS_STRICT := false
+BLISS_GRAPHITE := false
+BLISS_KRAIT := false
+BLISS_PIPE := true
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
+WITH_LZMA_OTA := true
+TARGET_ENABLE_UKM := true
+
+#SaberMod
+-include vendor/bliss/config/sm.mk

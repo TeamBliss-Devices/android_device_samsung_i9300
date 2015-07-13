@@ -83,7 +83,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.android.nfc_extras
 
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/bliss/config/nfc_enhanced.mk)
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -91,11 +91,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=false \
     ro.telephony.call_ring.delay=3000
 
-# OTA
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ota.romname=Temasek-i9300 \
-    ro.ota.version=$(shell date +%F | sed s@-@@g) \
-    ro.ota.manifest=http://arter97.com/ota/temasek/i9300.xml
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \

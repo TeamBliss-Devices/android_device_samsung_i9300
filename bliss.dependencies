@@ -9,6 +9,6 @@
         "remote": "github",
         "repository": "ArchiDroid/ArchiKernel",
         "target_path": "kernel/samsung/smdk4412",
-        "revision": "cm-12.1"
+        "revision": "smdk4412"
    } 
 ]

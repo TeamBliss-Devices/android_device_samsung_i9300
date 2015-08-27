@@ -85,7 +85,7 @@ TW_THEME := portrait_hdpi
 
 
 # BlissPop Config Flags
-TARGET_TC_KERNEL := 4.9-hybrid
+TARGET_TC_KERNEL := 4.9-sm
 BLISSIFY := true
 BLISS_O3 := true
 BLISS_STRICT := false

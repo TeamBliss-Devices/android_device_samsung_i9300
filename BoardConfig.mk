@@ -85,7 +85,8 @@ TW_THEME := portrait_hdpi
 
 
 # BlissPop Config Flags
-TARGET_TC_KERNEL := 4.9-sm
+TARGET_TC_ROM := 5.2-linaro
+TARGET_TC_KERNEL := 5.2-linaro
 BLISSIFY := true
 BLISS_O3 := true
 BLISS_STRICT := false
